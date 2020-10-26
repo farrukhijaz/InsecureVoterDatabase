@@ -28,4 +28,12 @@ This page is actually a copy of the actual "Find my voter registration status" p
   - Example: `sudo mysql voterdb < insert_fake_voter_data.sql`
 
 ## Additional Support
-In the `data` folder, there is a Python script to generate fake voter data
+In the `data` folder, there is a Python script to generate fake voter data.
+
+## References
+1. https://us-cert.cisa.gov/ncas/tips/ST16-001
+2. "SQL Injection Attack is Tied to Election Commission Breach" https://threatpost.com/sql-injection-attack-is-tied-to-election-commission-breach/122571/
+3. "How the Russians penetrated Illinois election computers" https://abc7chicago.com/politics/how-the-russians-penetrated-illinois-election-computers/3778816/
+4. "US Alleges Iran Sent Threatening Emails to Democrats" https://www.bankinfosecurity.com/us-alleges-iran-sent-threatening-emails-to-democrats-a-15221
+5. "Free tech tools for election officials" https://gcn.com/articles/2020/10/08/election-security-tools.aspx
+6. "U.S. Voter Databases Offered for Free on Dark Web, Report" https://threatpost.com/u-s-voter-databases-offered-free-dark-web/158840/
