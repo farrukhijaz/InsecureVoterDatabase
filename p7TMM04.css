@@ -1,0 +1,121 @@
+/* 
+  -----------------------------------
+  Tree Menu Magic 2
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 04 - Carbon
+  -----------------------------------
+*/
+
+.p7TMM04 {
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+	padding: 10px 0px 0px 0px;
+	zoom: 1;
+/*	border-bottom: 1px solid #000;
+	background-image: url(img/tmm_rootGradientBlack.jpg);
+	background-repeat: repeat-y;
+	background-color: #333;
+	border-top: 1px solid #333;
+	border-right: 1px solid #000;
+	border-left: 1px solid #333;
+*/}
+.p7TMM04 div {
+	zoom: 1;
+}
+.p7TMM04 ul {
+	margin: 0;
+	padding: 0;
+}
+.p7TMM04 ul div {
+	background-color: transparent;
+	margin-left:20px;
+}
+.p7TMM04 ul ul div {
+	background-color: transparent;
+	background-image: none;
+}
+.p7TMM04 ul li {
+	list-style-type: none;
+}
+.p7TMM04 ul ul li {
+	padding-left: 1em;
+}
+.p7TMM04 ul a {
+	color: #000;
+	display: block;
+	padding: 6px 8px 10px 18px;
+	text-decoration: none;
+	line-height:140%;
+	zoom: 1;
+}
+.p7TMM04 a.tmmlast {
+	border-bottom: 0;
+}
+.p7TMM04 ul a:hover, .p7TMM04 ul a:focus {
+	color: #2A9FFF;
+	text-decoration: none;
+}
+.p7TMM04 ul ul a {
+	border: 0;
+	padding: 3px 8px 8px 18px;
+	color: #000;
+	background-color: transparent !important;
+	background-image: none;
+	font-size: 100%;
+}
+.p7TMM04 ul ul a:hover, .p7TMM04 ul ul a:focus {
+	color: #2A9FFF;
+	text-decoration: none;
+}
+.p7TMM04 a.p7tmm_page {
+	background-image: none);
+}
+.p7TMM04 ul ul a.p7tmm_page {
+	background-image: none;
+}
+.p7TMM04 ul ul a.p7tmm_page:hover {
+	background-image: none);
+}
+.p7TMM04 a.trig_closed {
+	background:url(Arrow_right.gif);
+	background-position: 0px 6px;
+	background-repeat: no-repeat;
+}
+.p7TMM04 ul ul a.trig_closed {
+	background-image: url(Arrow_right.gif);
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+}
+.p7TMM04 a.trig_open {
+	background-image: url(Arrow_down.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+}
+.p7TMM04 ul ul a.trig_open {
+	background-image: url(Arrow_down.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+.p7TMM04 a.current_mark, .p7TMM04 a.current_mark:hover {
+	color:#2C7DAC;
+	font-weight: bold;
+}
+.p7TMM04 ul ul a.current_mark, .p7TMM04 ul ul a.current_mark:hover {
+	color:#2C7DAC;
+	font-weight: bold;
+}
+.p7TMMtoggle {
+	display:none;
+}
+.p7TMM04_toggle_all {
+	margin: 0 0 12px 0;
+}
+.p7TMM04_toggle_all a {
+	color: #000;
+	outline: 0;
+}
+.p7TMM04_toggle_all a:hover, .p7TMM04_toggle_all a:focus, .p7TMM04_toggle_all a:active {
+	color: #06C;
+	text-decoration: underline;
+}
