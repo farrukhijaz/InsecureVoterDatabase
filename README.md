@@ -1,6 +1,10 @@
 ## Overview
 The purpose of this is to demonstrate what happens when a voter database, including web forms, are not developed well and have vulnerabilities.
 
+## Audience
+1. Govies, lawmakers, politicians
+2. Developers
+
 ## Design
 This page is actually a copy of the actual "Find my voter registration status" page at https://www.sec.state.ma.us/voterregistrationsearch/myvoterregstatus.aspx. However, this system is deliberately vulnerable.  An attacker can dump the entire contents of this database.
 
