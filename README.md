@@ -5,12 +5,9 @@ The purpose of this is to demonstrate what happens when a voter database, includ
 1. Govies, lawmakers, politicians
 2. Developers
 
-## Design
-This page is actually a copy of the actual "Find my voter registration status" page at https://www.sec.state.ma.us/voterregistrationsearch/myvoterregstatus.aspx. However, this system is deliberately vulnerable (I made it so).  An attacker can dump the entire contents of this database.
-
 ## DISCLAIMER
 * Because this is a deliberately vulnerable system, DO NOT launch this on the real Internet!
-* Please DO NOT attack the actual "Find my voter registration status" page.  I just made a copy of the web page and made a few modifications to the page to make it deliberately vulnerable.
+* Please DO NOT attack your state's actual "Find my voter registration status" page.
 
 ## Requirements
 * Web server (e.g., nginx)
