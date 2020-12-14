@@ -186,7 +186,7 @@
 </tr>
 <tr>
 <th>Zipcode:</th>         
-<td><input name="zipcode" type="text" /></td>
+<td><input name="zipcode" type="text" maxlength="5" /></td>
 </tr>
 </table>
 <p><input type="checkbox" name="understand" />You must check this box before you can view your voting information.</p>
