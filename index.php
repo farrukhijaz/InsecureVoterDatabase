@@ -202,7 +202,7 @@
     $zipcode = $_POST["zipcode"];
     $understand = $_POST["understand"];
     $myUserName = 'hacked';
-    $myPassword = 'fuckyou';
+    $myPassword = 'epicfail';
     $myDBName = 'voterdb';
     $myHost = 'localhost';
     $db = mysqli_connect($myHost, $myUserName, $myPassword);
