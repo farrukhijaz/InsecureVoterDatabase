@@ -18,7 +18,13 @@ The purpose of this is to demonstrate what happens when a voter database, includ
 ## Database Setup Instructions
 1. Create database in MySQL: `CREATE DATABASE voterdb;`
 
-2. Create database table in the `voterdb` database:
+2. Create user for database in MySQL: `CREATE USER 'hacked'@localhost IDENTIFIED BY 'epicfail';`
+
+3. Grant database privileges to user in MySQL: `GRANT ALL ON voterdb.* TO 'hacked'@localhost;`
+
+4. Import database and data: `mysql -u hacked -p voterdb < data/mysql.sql;`
+
+## Database Table Schema
 `CREATE TABLE voters (`
 `id INT(9) NOT NULL AUTO_INCREMENT,`
 `first_name VARCHAR(30) NOT NULL,`
@@ -28,12 +34,6 @@ The purpose of this is to demonstrate what happens when a voter database, includ
 `dob_year INT(4) NOT NULL,`
 `zipcode VARCHAR(5) NOT NULL DEFAULT '00000',`
 `PRIMARY KEY(id));`
-
-3. Insert the seed data to the database.  The seed data file is found in the `data` folder
-  - Example: `sudo mysql voterdb < insert_fake_voter_data.sql`
-
-## Additional Support
-In the `data` folder, there is a Python script to generate fake voter data.
 
 ## References
 1. https://us-cert.cisa.gov/ncas/tips/ST16-001
